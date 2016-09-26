@@ -25,7 +25,9 @@
       </div>
     </header>
 
-    <div id="content-wrapper">
+	<iframe id="frame_documentacion" style="display:none;width:68.4%;height:680px;float:left;position:absolute;z-index:9999999;" src="./code/index.html"></iframe>
+    
+	<div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
           <h3>
@@ -55,6 +57,13 @@
         </section>
 
         <aside id="sidebar">
+		  <a href="#" onclick="window.open('./code/index.html');">
+            <small>Abrir en una nueva pestaña</small>
+          </a>
+		  <a href="#" onclick="document.getElementById('main-content').style.display='none';document.getElementById('frame_documentacion').style.display='';" class="button boton">
+            <small>Documentación de Código</small>
+			CodeDoc
+          </a>
           <a href="https://github.com/WheelFrameworkDotNet/Wheel.Core/zipball/master" class="button">
             <small>Download</small>
             .zip file
