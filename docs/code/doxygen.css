@@ -1030,10 +1030,20 @@ div.ingroups a
 	white-space: nowrap;
 }
 
+#titlearea
+{
+	display:none;
+}
+
+.tablist li:first-child a:first-child
+{
+	display:none;
+}
+
 div.header
 {
-        background-image:url('nav_h.png');
-        background-repeat:repeat-x;
+    background-image:url('nav_h.png');
+    background-repeat:repeat-x;
 	background-color: #F9FAFC;
 	margin:  0px;
 	border-bottom: 1px solid #C4CFE5;
@@ -1042,6 +1052,11 @@ div.header
 div.headertitle
 {
 	padding: 5px 5px 5px 10px;
+}
+
+.footer
+{
+	display:none;
 }
 
 dl
