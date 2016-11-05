@@ -1,0 +1,1165 @@
+Compilación iniciada a las 05-11-2016 20:54:59.
+     1>Proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" en nodo 1 (destinos predeterminados).
+     1>Compilando con la versión de herramientas "2.0".
+     1>Destino "ValidateSolutionConfiguration" en el archivo "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln.metaproj" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (punto de entrada):
+       Se omitió la tarea "Error" debido a una condición falsa (False); (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')) se evaluó como (('<SolutionConfiguration>
+         <ProjectConfiguration Project="{CFB5C538-AFEA-4A86-B206-2210F5262335}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+         <ProjectConfiguration Project="{986B7BDB-E319-497F-ABB0-4E655DD02F33}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+       </SolutionConfiguration>' == '') and ('' != 'true')).
+       Se omitió la tarea "Warning" debido a una condición falsa (False); (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')) se evaluó como (('<SolutionConfiguration>
+         <ProjectConfiguration Project="{CFB5C538-AFEA-4A86-B206-2210F5262335}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+         <ProjectConfiguration Project="{986B7BDB-E319-497F-ABB0-4E655DD02F33}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+       </SolutionConfiguration>' == '') and ('' == 'true')).
+       Usando la tarea "Message" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Message"
+         Compilando la configuración de soluciones "Release|Any CPU".
+       Ejecución de la tarea "Message" terminada.
+     1>Compilación terminada del destino "ValidateSolutionConfiguration" en el proyecto "Wheel.Core.sln".
+     1>Destino "ValidateToolsVersions" en el archivo "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln.metaproj" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (punto de entrada):
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')) se evaluó como ('14.0' == '2.0' and ('' != '2.0' and '' != '')).
+     1>Compilación terminada del destino "ValidateToolsVersions" en el proyecto "Wheel.Core.sln".
+     1>Destino "ValidateProjects" en el archivo "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln.metaproj" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (punto de entrada):
+     1>Compilación terminada del destino "ValidateProjects" en el proyecto "Wheel.Core.sln".
+     1>Destino "Build" en el archivo "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln.metaproj" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (punto de entrada):
+       Usando la tarea "MSBuild" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "MSBuild"
+         Propiedades globales:
+           BuildingSolutionFile=true
+           CurrentSolutionConfigurationContents=<SolutionConfiguration>
+           <ProjectConfiguration Project="{CFB5C538-AFEA-4A86-B206-2210F5262335}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+           <ProjectConfiguration Project="{986B7BDB-E319-497F-ABB0-4E655DD02F33}" AbsolutePath="C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+         </SolutionConfiguration>
+           SolutionDir=C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\
+           SolutionExt=.sln
+           SolutionFileName=Wheel.Core.sln
+           SolutionName=Wheel.Core
+           SolutionPath=C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln
+         Propiedades adicionales del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj":
+           Configuration=Release
+           Platform=AnyCPU
+         Propiedades adicionales del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj":
+           Configuration=Release
+           Platform=AnyCPU
+     0>Invalidando el destino "GetFrameworkPaths" del proyecto"C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" con el destino "GetFrameworkPaths" del proyecto "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets".
+       Invalidando el destino "SatelliteDllsProjectOutputGroup" del proyecto"C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" con el destino "SatelliteDllsProjectOutputGroup" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+       El destino "BeforeGenerateProjectPriFile" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" no existe en el proyecto y se omitirá.
+       El destino "_ConvertPdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" no existe en el proyecto y se omitirá.
+       El destino "_CollectPdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" no existe en el proyecto y se omitirá.
+       El destino "_CollectMdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)" no existe en el proyecto y se omitirá.
+       El destino "_CopyMdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,71)" no existe en el proyecto y se omitirá.
+     1>El proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (1) está compilando "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (2) en el nodo 1 (destinos predeterminados).
+     2>Compilando con la versión de herramientas "14.0".
+       El archivo del proyecto contiene ToolsVersion="12.0". Puede que no se conozca o que falte este conjunto de herramientas, en cuyo caso es posible que tenga que resolver este problema instalando la versión adecuada de MSBuild, o puede aplicarse una versión de las herramientas determinada a la compilación si así lo requieren las directivas. Se tratará el proyecto como si contuviera ToolsVersion="14.0". Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=293424.
+     2>Destino "_CheckForInvalidConfigurationAndPlatform" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (punto de entrada):
+       Se omitió la tarea "Error" debido a una condición falsa (False); ( '$(_InvalidConfigurationError)' == 'true' ) se evaluó como ( '' == 'true' ).
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ( '$(_InvalidConfigurationWarning)' == 'true' ) se evaluó como ( '' == 'true' ).
+       Usando la tarea "Message" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Message"
+         Configuration=Release
+       Ejecución de la tarea "Message" terminada.
+       Tarea "Message"
+         Platform=AnyCPU
+       Ejecución de la tarea "Message" terminada.
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) se evaluó como ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\')).
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) se evaluó como ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) se evaluó como ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\')).
+     2>Compilación terminada del destino "_CheckForInvalidConfigurationAndPlatform" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "EntityDeploy" debido a una condición falsa (False); ('@(EntityDeploy)' != '') se evaluó como ('' != '').
+     2>Destino "BeforeBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Build" depende de él):
+     2>Compilación terminada del destino "BeforeBuild" en el proyecto "Wheel.Core.csproj".
+     2>Destino "BuildOnlySettings" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "BuildOnlySettings" en el proyecto "Wheel.Core.csproj".
+     2>Destino "GetFrameworkPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareForBuild" depende de él):
+     2>Compilación terminada del destino "GetFrameworkPaths" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "GetWinFXPath" debido a una condición falsa (False); (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) se evaluó como (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     2>Destino "GetReferenceAssemblyPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareForBuild" depende de él):
+       Usando la tarea "GetReferenceAssemblyPaths" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "GetReferenceAssemblyPaths"
+       Ejecución de la tarea "GetReferenceAssemblyPaths" terminada.
+     2>Compilación terminada del destino "GetReferenceAssemblyPaths" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "AssignLinkMetadata" debido a una condición falsa (False); ( '$(SynthesizeLinkMetadata)' == 'true' ) se evaluó como ( '' == 'true' ).
+     2>Destino "PrepareForBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+       Usando la tarea "FindAppConfigFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "FindAppConfigFile"
+       Ejecución de la tarea "FindAppConfigFile" terminada.
+       Usando la tarea "MakeDir" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "MakeDir"
+         Creando directorio "bin\Release\".
+       Ejecución de la tarea "MakeDir" terminada.
+     2>Compilación terminada del destino "PrepareForBuild" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "PreBuildEvent" debido a una condición falsa (False); ('$(PreBuildEvent)'!='') se evaluó como (''!='').
+     2>Destino "BeforeResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+     2>Compilación terminada del destino "BeforeResolveReferences" en el proyecto "Wheel.Core.csproj".
+     2>Destino "AssignProjectConfiguration" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Usando la tarea "AssignProjectConfiguration" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignProjectConfiguration"
+       Ejecución de la tarea "AssignProjectConfiguration" terminada.
+     2>Compilación terminada del destino "AssignProjectConfiguration" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "AssignProjectConfiguration". Compilado previamente de forma correcta.
+     2>Destino "_SplitProjectReferencesByFileExistence" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveProjectReferences" depende de él):
+       Se omitió la tarea "ResolveNonMSBuildProjectOutput" debido a una condición falsa (False); ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') se evaluó como (''=='true' and ''!='').
+     2>Compilación terminada del destino "_SplitProjectReferencesByFileExistence" en el proyecto "Wheel.Core.csproj".
+     2>Destino "ResolveProjectReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '' != '').
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '' != '').
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') se evaluó como ('' != '' and '' != '').
+     2>Compilación terminada del destino "ResolveProjectReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "FindInvalidProjectReferences" debido a una condición falsa (False); ('$(FindInvalidProjectReferences)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+       Se omitió el destino "GetFrameworkPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "GetReferenceAssemblyPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "PrepareForBuild". Compilado previamente de forma correcta.
+     2>Destino "GetInstalledSDKLocations" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveSDKReferences" depende de él):
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') se evaluó como ('' != '' and '' == 'true' and '' != '' and '' != '').
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') se evaluó como ('' != '' and '' == 'true' and '' != '' and '' != '').
+     2>Compilación terminada del destino "GetInstalledSDKLocations" en el proyecto "Wheel.Core.csproj".
+     2>Destino "ModifyUnitTestPlatformVersion" en el archivo "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportBefore\Windows.8.1.UT_SDKReference.props" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveSDKReferences" depende de él):
+     2>Compilación terminada del destino "ModifyUnitTestPlatformVersion" en el proyecto "Wheel.Core.csproj".
+     2>Destino "ResolveSDKReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+       Se omitió la tarea "ResolveSDKReference" debido a una condición falsa (False); ('@(SDKReference)'!='') se evaluó como (''!='').
+     2>Compilación terminada del destino "ResolveSDKReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ResolveSDKReferences". Compilado previamente de forma correcta.
+     2>Destino "ExpandSDKReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+       Se omitió la tarea "GetSDKReferenceFiles" debido a una condición falsa (False); ('@(ResolvedSDKReference)'!='') se evaluó como (''!='').
+     2>Compilación terminada del destino "ExpandSDKReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ResolveNuGetPackageAssets" debido a una condición falsa (False); ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) se evaluó como ('true' == 'true' and exists('project.lock.json')).
+     2>Destino "ResolveAssemblyReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Usando la tarea "ResolveAssemblyReference" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ResolveAssemblyReference"
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v3.5
+         TargetFrameworkMonikerDisplayName:
+             .NETFramework v3.5
+         TargetedRuntimeVersion:
+             v2.0.50727
+         Assemblies:
+             System
+             System.Core
+         AssemblyFiles:
+             C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\,C:\Windows\Microsoft.NET\Framework\v3.5\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\,C:\Windows\Microsoft.NET\Framework\v3.0\,C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             bin\Release\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+         AppConfigFile:
+             
+         AutoUnify:
+             True
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             msil
+         StateFile:
+             obj\Release\Wheel.Core.csprojResolveAssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\
+             C:\Windows\Microsoft.NET\Framework\v3.5\
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\
+             C:\Windows\Microsoft.NET\Framework\v3.0\
+             C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         Referencia principal "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll".
+             Esta referencia no es "CopyLocal" porque se encuentra en un directorio de Frameworks.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.winmd", pero no existía.
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.winmd", pero no existía.
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+       Ejecución de la tarea "ResolveAssemblyReference" terminada.
+     2>Compilación terminada del destino "ResolveAssemblyReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "GenerateBindingRedirects" debido a una condición falsa (False); ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') se evaluó como ('' == 'true' and '' == 'true').
+       Se omitió el destino "GenerateBindingRedirectsUpdateAppConfig" debido a una condición falsa (False); ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) se evaluó como ('' == 'true' and '' == 'true' and Exists('obj\Release\Wheel.Core.csproj.Wheel.Core.dll.config')).
+       Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+     2>Destino "AfterResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+     2>Compilación terminada del destino "AfterResolveReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ImplicitlyExpandDesignTimeFacades" debido a una condición falsa (False); ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "ResolveTestReferences" debido a una condición falsa (False); ('@(Shadow)'!='') se evaluó como (''!='').
+     2>Destino "ResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "ResolveReferences" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ResolveNuGetPackageAssets" debido a una condición falsa (False); ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) se evaluó como ('true' == 'true' and exists('project.lock.json')).
+       Se omitió el destino "MarkupCompilePass1" debido a una condición falsa (False); ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) se evaluó como ('' != '' or '' != '' ).
+     2>Destino "AfterMarkupCompilePass1" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     2>Compilación terminada del destino "AfterMarkupCompilePass1" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "MarkupCompilePass2ForMainAssembly" debido a una condición falsa (False); ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) se evaluó como ('false' == 'true' ).
+     2>Destino "FileClassification" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResources" depende de él):
+       Se omitió la tarea "FileClassifier" debido a una condición falsa (False); ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') se evaluó como ('' != '' or '' != '' or '' != '').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+     2>Compilación terminada del destino "FileClassification" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "MainResourcesGeneration" debido a una condición falsa (False); ('@(MainEmbeddedFiles)' != '') se evaluó como ('' != '').
+       Se omitió el destino "AssignWinFXEmbeddedResource" debido a una condición falsa (False); ('@(WinFXEmbeddedResource)' != '') se evaluó como ('' != '').
+     2>Destino "AssignTargetPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+       Usando la tarea "AssignTargetPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Se omitió la tarea "AssignTargetPath" debido a una condición falsa (False); ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') se evaluó como (''=='' and '.pfx'=='.manifest').
+     2>Compilación terminada del destino "AssignTargetPaths" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+     2>Destino "SplitResourcesByCulture" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithNoCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithNoCulture)'!='') se evaluó como (''!='').
+       Usando la tarea "AssignCulture" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignCulture"
+       Ejecución de la tarea "AssignCulture" terminada.
+     2>Compilación terminada del destino "SplitResourcesByCulture" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "CreateManifestResourceNames" debido a una condición falsa (False); ('@(EmbeddedResource)' != '') se evaluó como ('' != '').
+     2>Destino "CreateCustomManifestResourceNames" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+     2>Compilación terminada del destino "CreateCustomManifestResourceNames" en el proyecto "Wheel.Core.csproj".
+     2>Destino "PrepareResourceNames" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     2>Compilación terminada del destino "PrepareResourceNames" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ResolveAssemblyReferences". Compilado previamente de forma correcta.
+       Se omitió el destino "SplitResourcesByCulture". Compilado previamente de forma correcta.
+     2>Destino "BeforeResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResGen" depende de él):
+     2>Compilación terminada del destino "BeforeResGen" en el proyecto "Wheel.Core.csproj".
+     2>Destino "CoreResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResGen" depende de él):
+       Se omitió la tarea "GenerateResource" debido a una condición falsa (False); ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') se evaluó como ('' == 'Resx' and '' != 'false' and 'CLR2' != 'CLR2').
+       Se omitió la tarea "GenerateResource" debido a una condición falsa (False); ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') se evaluó como ('' == 'Resx' and '' != 'false' and 'CLR2' == 'CLR2').
+     2>Compilación terminada del destino "CoreResGen" en el proyecto "Wheel.Core.csproj".
+     2>Destino "AfterResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "ResGen" depende de él):
+     2>Compilación terminada del destino "AfterResGen" en el proyecto "Wheel.Core.csproj".
+     2>Destino "ResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     2>Compilación terminada del destino "ResGen" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "CompileLicxFiles" debido a una condición falsa (False); ('@(_LicxFile)'!='') se evaluó como (''!='').
+     2>Destino "PrepareResources" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "PrepareResources" en el proyecto "Wheel.Core.csproj".
+     2>Destino "ResolveKeySource" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+       Usando la tarea "ResolveKeySource" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ResolveKeySource"
+       Ejecución de la tarea "ResolveKeySource" terminada.
+     2>Compilación terminada del destino "ResolveKeySource" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ResolveReferences". Compilado previamente de forma correcta.
+       Se omitió el destino "ResolveKeySource". Compilado previamente de forma correcta.
+       Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+       Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+       Se omitió el destino "_SetExternalWin32ManifestProperties" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') se evaluó como (''=='true' or ''!='' or ''!='').
+     2>Destino "_SetEmbeddedWin32ManifestProperties" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "SetWin32ManifestProperties" depende de él):
+       Usando la tarea "GetFrameworkPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "GetFrameworkPath"
+       Ejecución de la tarea "GetFrameworkPath" terminada.
+     2>Compilación terminada del destino "_SetEmbeddedWin32ManifestProperties" en el proyecto "Wheel.Core.csproj".
+     2>Destino "SetWin32ManifestProperties" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+     2>Compilación terminada del destino "SetWin32ManifestProperties" en el proyecto "Wheel.Core.csproj".
+     2>Destino "_GenerateCompileInputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+     2>Compilación terminada del destino "_GenerateCompileInputs" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "GenerateTargetFrameworkMonikerAttribute" debido a una condición falsa (False); ('$(GenerateTargetFrameworkAttribute)' == 'true') se evaluó como ('' == 'true').
+     2>Destino "_SetTargetFrameworkMonikerAttribute" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "GenerateTargetFrameworkMonikerAttribute" depende de él):
+     2>Compilación terminada del destino "_SetTargetFrameworkMonikerAttribute" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "GenerateAdditionalSources" debido a una condición falsa (False); ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') se evaluó como ('' != '' and '' == 'true').
+     2>Destino "BeforeCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+     2>Compilación terminada del destino "BeforeCompile" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "_TimeStampBeforeCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+       Se omitió el destino "_ComputeNonExistentFileProperty" debido a una condición falsa (False); (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) se evaluó como (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+     2>Destino "ResolveCodeAnalysisRuleSet" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreCompile" depende de él):
+       Usando la tarea "ResolveCodeAnalysisRuleSet" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ResolveCodeAnalysisRuleSet"
+       Ejecución de la tarea "ResolveCodeAnalysisRuleSet" terminada.
+     2>Compilación terminada del destino "ResolveCodeAnalysisRuleSet" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "SonarQubeImportBeforeInfo" debido a una condición falsa (False); ( $(SonarQubeTempPath) != '' AND $(BuildingInsideVisualStudio) != 'true' ) se evaluó como (  != '' AND  != 'true' ).
+     2>Destino "CoreCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.Core.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+       Compilando completamente el destino "CoreCompile".
+       El archivo de salida "bin\Release\Wheel.Core.UnitTests.xml" no existe.
+       Usando la tarea "Csc" del ensamblado "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Build.Tasks.CodeAnalysis.dll".
+       Tarea "Csc"
+         C:\Program Files (x86)\MSBuild\14.0\bin\csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /doc:bin\Release\Wheel.Core.UnitTests.xml /define:TRACE /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /debug:pdbonly /filealign:512 /keycontainer:VS_KEY_5A834A1E80E189F5 /optimize+ /out:obj\Release\Wheel.Core.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /target:library /utf8output CustomAttributes\Development\NoImplementado.cs CustomAttributes\Development\Dummy.cs CustomAttributes\Object\Inmutable.cs Enumeracion.cs Exceptions\ArgumentoInvalido.cs Properties\AssemblyInfo.cs
+     0>Invalidando el destino "GetFrameworkPaths" del proyecto"C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" con el destino "GetFrameworkPaths" del proyecto "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets".
+       Invalidando el destino "SatelliteDllsProjectOutputGroup" del proyecto"C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" con el destino "SatelliteDllsProjectOutputGroup" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+       El destino "BeforeGenerateProjectPriFile" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" no existe en el proyecto y se omitirá.
+       El destino "_ConvertPdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" no existe en el proyecto y se omitirá.
+       El destino "_CollectPdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" no existe en el proyecto y se omitirá.
+       El destino "_CollectMdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,38)" no existe en el proyecto y se omitirá.
+       El destino "_CopyMdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (40,71)" no existe en el proyecto y se omitirá.
+     1>El proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (1) está compilando "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (3) en el nodo 2 (destinos predeterminados).
+     3>Compilando con la versión de herramientas "14.0".
+     3>Destino "_CheckForInvalidConfigurationAndPlatform" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (punto de entrada):
+       Se omitió la tarea "Error" debido a una condición falsa (False); ( '$(_InvalidConfigurationError)' == 'true' ) se evaluó como ( '' == 'true' ).
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ( '$(_InvalidConfigurationWarning)' == 'true' ) se evaluó como ( '' == 'true' ).
+       Usando la tarea "Message" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Message"
+         Configuration=Release
+       Ejecución de la tarea "Message" terminada.
+       Tarea "Message"
+         Platform=AnyCPU
+       Ejecución de la tarea "Message" terminada.
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) se evaluó como ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\')).
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) se evaluó como ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Se omitió la tarea "Error" debido a una condición falsa (False); ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) se evaluó como ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\')).
+     3>Compilación terminada del destino "_CheckForInvalidConfigurationAndPlatform" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "EntityDeploy" debido a una condición falsa (False); ('@(EntityDeploy)' != '') se evaluó como ('' != '').
+     3>Destino "BeforeBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Build" depende de él):
+     3>Compilación terminada del destino "BeforeBuild" en el proyecto "testWheel.Core.csproj".
+     3>Destino "BuildOnlySettings" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "BuildOnlySettings" en el proyecto "testWheel.Core.csproj".
+     3>Destino "GetFrameworkPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareForBuild" depende de él):
+     3>Compilación terminada del destino "GetFrameworkPaths" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "GetWinFXPath" debido a una condición falsa (False); (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) se evaluó como (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     3>Destino "GetReferenceAssemblyPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareForBuild" depende de él):
+       Usando la tarea "GetReferenceAssemblyPaths" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "GetReferenceAssemblyPaths"
+       Ejecución de la tarea "GetReferenceAssemblyPaths" terminada.
+     3>Compilación terminada del destino "GetReferenceAssemblyPaths" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "AssignLinkMetadata" debido a una condición falsa (False); ( '$(SynthesizeLinkMetadata)' == 'true' ) se evaluó como ( '' == 'true' ).
+     3>Destino "PrepareForBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+       Usando la tarea "FindAppConfigFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "FindAppConfigFile"
+       Ejecución de la tarea "FindAppConfigFile" terminada.
+       Usando la tarea "MakeDir" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "MakeDir"
+         Creando directorio "bin\Release\".
+       Ejecución de la tarea "MakeDir" terminada.
+     3>Compilación terminada del destino "PrepareForBuild" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "PreBuildEvent" debido a una condición falsa (False); ('$(PreBuildEvent)'!='') se evaluó como (''!='').
+     3>Destino "BeforeResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+     3>Compilación terminada del destino "BeforeResolveReferences" en el proyecto "testWheel.Core.csproj".
+     3>Destino "AssignProjectConfiguration" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Usando la tarea "AssignProjectConfiguration" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignProjectConfiguration"
+         Se asignó la configuración "Release|AnyCPU" a la referencia de proyecto "..\src\Wheel.Core.csproj".
+       Ejecución de la tarea "AssignProjectConfiguration" terminada.
+     3>Compilación terminada del destino "AssignProjectConfiguration" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "AssignProjectConfiguration". Compilado previamente de forma correcta.
+     3>Destino "_SplitProjectReferencesByFileExistence" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveProjectReferences" depende de él):
+       Se omitió la tarea "ResolveNonMSBuildProjectOutput" debido a una condición falsa (False); ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') se evaluó como (''=='true' and '..\src\Wheel.Core.csproj'!='').
+     3>Compilación terminada del destino "_SplitProjectReferencesByFileExistence" en el proyecto "testWheel.Core.csproj".
+     3>Destino "ResolveProjectReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('true' == 'true' and '..\src\Wheel.Core.csproj' != '' and ('' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '..\src\Wheel.Core.csproj' != '').
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('true' == 'true' and '..\src\Wheel.Core.csproj' != '' and ('' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '..\src\Wheel.Core.csproj' != '').
+       Usando la tarea "MSBuild" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "MSBuild"
+         Propiedades globales:
+           Configuration=Release
+           Platform=AnyCPU
+     2>CoreCompile:
+         Compilador de Microsoft (R) Visual C# versión 1.1.0.51204
+         Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+     2>Enumeracion.cs(215,50): warning CS1584: El comentario XML tiene un atributo cref '>System.String' con sintaxis incorrecta [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(215,50): warning CS1658: Se esperaba un identificador. Vea también el error CS1001. [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(238,45): warning CS1584: El comentario XML tiene un atributo cref '>System.String' con sintaxis incorrecta [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(238,45): warning CS1658: Se esperaba un identificador. Vea también el error CS1001. [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(159,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(200,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(237,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(274,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(290,37): warning CS1723: El comentario XML tiene un atributo cref 'TipoDerivado' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(313,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(315,45): warning CS1723: El comentario XML tiene un atributo cref 'TipoDerivado' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>CustomAttributes\Development\NoImplementado.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>CustomAttributes\Development\Dummy.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>CustomAttributes\Object\Inmutable.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Enumeracion.cs(6,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+     2>Exceptions\ArgumentoInvalido.cs(2,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+       Ejecución de la tarea "Csc" terminada.
+       Se omitió la tarea "CallTarget" debido a una condición falsa (False); ('$(TargetsTriggeredByCompilation)' != '') se evaluó como ('' != '').
+     2>Compilación terminada del destino "CoreCompile" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "_TimeStampAfterCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+     2>Destino "AfterCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+     2>Compilación terminada del destino "AfterCompile" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "CreateTfsBuildInfoResource" debido a una condición falsa (False); ( $(AddBuildInfoToAssembly)==true ) se evaluó como ( false==true ).
+       Se omitió el destino "CreateTfsBuildInfoFile" debido a una condición falsa (False); ( $(GenerateBuildInfoConfigFile)==true AND $(WebProjectOutputDir)!='') se evaluó como ( false==true AND !='').
+     2>Destino "SetBuildInfoDefaults" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "DeleteBuildInfoFile" depende de él):
+     2>Compilación terminada del destino "SetBuildInfoDefaults" en el proyecto "Wheel.Core.csproj".
+     2>Destino "DeleteBuildInfoFile" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Delete" debido a una condición falsa (False); (EXISTS('$(BuildInfoConfigFileName)')) se evaluó como (EXISTS(' C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.BuildInfo.config')).
+     2>Compilación terminada del destino "DeleteBuildInfoFile" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "SetBuildInfoDefaults". Compilado previamente de forma correcta.
+     2>Destino "DeleteBuildInfoResource" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Delete" debido a una condición falsa (False); (EXISTS('$(BuildInfoResourceFileName)')) se evaluó como (EXISTS(' obj\Release\Wheel.Core.BuildInfo.config')).
+     2>Compilación terminada del destino "DeleteBuildInfoResource" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "PrepareResourcesForSatelliteAssemblies" debido a una condición falsa (False); ('$(UICulture)' != '') se evaluó como ('' != '').
+       Se omitió el destino "MergeLocalizationDirectives" debido a una condición falsa (False); ('@(GeneratedLocalizationFiles)' !='') se evaluó como ('' !='').
+     2>Destino "AfterCompileWinFX" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "_AfterCompileWinFXInternal" depende de él):
+     2>Compilación terminada del destino "AfterCompileWinFX" en el proyecto "Wheel.Core.csproj".
+     2>Destino "_AfterCompileWinFXInternal" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Compile" depende de él):
+     2>Compilación terminada del destino "_AfterCompileWinFXInternal" en el proyecto "Wheel.Core.csproj".
+     2>Destino "Compile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "Compile" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ExportWindowsMDFile" debido a una condición falsa (False); ('$(ExportWinMDFile)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "UnmanagedUnregistration" debido a una condición falsa (False); ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)')) se evaluó como ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\Wheel.Core.csproj.UnmanagedRegistration.cache')).
+       Se omitió el destino "GenerateSerializationAssemblies" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     2>Destino "_GenerateSatelliteAssemblyInputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+     2>Compilación terminada del destino "_GenerateSatelliteAssemblyInputs" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ComputeIntermediateSatelliteAssemblies" debido a una condición falsa (False); (@(EmbeddedResource->'%(WithCulture)') != '') se evaluó como ( != '').
+       Se omitió el destino "GenerateSatelliteAssemblies" debido a una condición falsa (False); ('@(_SatelliteAssemblyResourceInputs)' != '') se evaluó como ('' != '').
+     2>Destino "CreateSatelliteAssemblies" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "CreateSatelliteAssemblies" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "GenerateManifests" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') se evaluó como (''=='true' or ''!='' or ''!='' or '' == 'true').
+     2>Destino "GetTargetPath" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "GetTargetPath" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "ComputeIntermediateSatelliteAssemblies" debido a una condición falsa (False); (@(EmbeddedResource->'%(WithCulture)') != '') se evaluó como ( != '').
+       Se omitió el destino "_CopyFilesMarkedCopyLocal" debido a una condición falsa (False); ('@(ReferenceCopyLocalPaths)' != '') se evaluó como ('' != '').
+       Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "_SplitProjectReferencesByFileExistence". Compilado previamente de forma correcta.
+     2>Destino "GetCopyToOutputDirectoryItems" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "_CopySourceItemsToOutputDirectory" depende de él):
+       Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') se evaluó como ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+     2>Compilación terminada del destino "GetCopyToOutputDirectoryItems" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectory" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) se evaluó como ( '' != '' ).
+       Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) se evaluó como ( '' != '' ).
+     2>Destino "_CopySourceItemsToOutputDirectory" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+     2>Compilación terminada del destino "_CopySourceItemsToOutputDirectory" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "_CopyAppConfigFile" debido a una condición falsa (False); ( '@(AppConfigWithTargetPath)' != '' ) se evaluó como ( '' != '' ).
+       Se omitió el destino "_CopyManifestFiles" debido a una condición falsa (False); ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) se evaluó como ( ''=='true' or ''=='true' ).
+     2>Destino "_CheckForCompileOutputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+     2>Compilación terminada del destino "_CheckForCompileOutputs" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     2>Destino "CopyFilesToOutputDirectory" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "PrepareForRun" depende de él):
+       Usando la tarea "Copy" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Copy"
+         Copiando el archivo de "obj\Release\Wheel.Core.dll" en "bin\Release\Wheel.Core.dll".
+       Ejecución de la tarea "Copy" terminada.
+       Tarea "Message"
+         Wheel.Core -> C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll
+       Ejecución de la tarea "Message" terminada.
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(AddModules)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_SGenDllCreated)'=='true') se evaluó como ('false'=='true').
+       Tarea "Copy"
+         Copiando el archivo de "obj\Release\Wheel.Core.pdb" en "bin\Release\Wheel.Core.pdb".
+       Ejecución de la tarea "Copy" terminada.
+       Tarea "Copy"
+         No se copió del archivo "bin\Release\Wheel.Core.UnitTests.xml" en el archivo "bin\Release\Wheel.Core.UnitTests.xml" porque el parámetro "SkipUnchangedFiles" se estableció como "true" en el proyecto y los tamaños y las marcas de tiempo de los archivos coinciden.
+       Ejecución de la tarea "Copy" terminada.
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) se evaluó como ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') se evaluó como ('' != 'true' and '' != '').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') se evaluó como ('' != 'true' and '' != '').
+     2>Compilación terminada del destino "CopyFilesToOutputDirectory" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "RunCodeAnalysis" debido a una condición falsa (False); ('$(RunCodeAnalysisOnThisProject)'=='true') se evaluó como (''=='true').
+     2>Destino "PrepareForRun" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     2>Compilación terminada del destino "PrepareForRun" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "UnmanagedRegistration" debido a una condición falsa (False); ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') se evaluó como (''=='true' and 'Library'=='library').
+       Se omitió el destino "_CheckForCompileOutputs". Compilado previamente de forma correcta.
+       Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     2>Destino "_CleanGetCurrentAndPriorFileWrites" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "IncrementalClean" depende de él):
+       Usando la tarea "ReadLinesFromFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ReadLinesFromFile"
+       Ejecución de la tarea "ReadLinesFromFile" terminada.
+       Usando la tarea "ConvertToAbsolutePath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ConvertToAbsolutePath"
+       Ejecución de la tarea "ConvertToAbsolutePath" terminada.
+       Usando la tarea "FindUnderPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "FindUnderPath"
+         La ruta de comparación es "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "bin\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "obj\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Usando la tarea "RemoveDuplicates" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "RemoveDuplicates"
+       Ejecución de la tarea "RemoveDuplicates" terminada.
+     2>Compilación terminada del destino "_CleanGetCurrentAndPriorFileWrites" en el proyecto "Wheel.Core.csproj".
+     2>Destino "IncrementalClean" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "CoreBuild" depende de él):
+       Tarea "FindUnderPath"
+         La ruta de comparación es "bin\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "obj\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Usando la tarea "Delete" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Delete"
+       Ejecución de la tarea "Delete" terminada.
+       Tarea "RemoveDuplicates"
+       Ejecución de la tarea "RemoveDuplicates" terminada.
+       Usando la tarea "WriteLinesToFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "WriteLinesToFile"
+       Ejecución de la tarea "WriteLinesToFile" terminada.
+     2>Compilación terminada del destino "IncrementalClean" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "PostBuildEvent" debido a una condición falsa (False); ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) se evaluó como ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+     2>Destino "CoreBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Build" depende de él):
+     2>Compilación terminada del destino "CoreBuild" en el proyecto "Wheel.Core.csproj".
+       Se omitió el destino "CreateTfsBuildInfoResource" debido a una condición falsa (False); ( $(AddBuildInfoToAssembly)==true ) se evaluó como ( false==true ).
+     2>Destino "AfterBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (el destino "Build" depende de él):
+     2>Compilación terminada del destino "AfterBuild" en el proyecto "Wheel.Core.csproj".
+     2>Destino "Build" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (punto de entrada):
+     2>Compilación terminada del destino "Build" en el proyecto "Wheel.Core.csproj".
+     2>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (destinos predeterminados).
+     3>El proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (3) está compilando "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (2:2) en el nodo 1 (destinos predeterminados).
+   2:2>Compilando con la versión de herramientas "14.0".
+       Se omitió el destino "_CheckForInvalidConfigurationAndPlatform". Compilado previamente de forma correcta.
+       Se omitió el destino "Build". Compilado previamente de forma correcta.
+   2:2>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (destinos predeterminados).
+     3>Ejecución de la tarea "MSBuild" terminada.
+       Tarea "MSBuild"
+         Propiedades globales:
+           Configuration=Release
+           Platform=AnyCPU
+     3>El proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (3) está compilando "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (2:3) en el nodo 1 (GetNativeManifest destinos).
+   2:3>Compilando con la versión de herramientas "14.0".
+       El archivo del proyecto contiene ToolsVersion="12.0". Puede que no se conozca o que falte este conjunto de herramientas, en cuyo caso es posible que tenga que resolver este problema instalando la versión adecuada de MSBuild, o puede aplicarse una versión de las herramientas determinada a la compilación si así lo requieren las directivas. Se tratará el proyecto como si contuviera ToolsVersion="14.0". Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=293424.
+       Se omitió el destino "_CheckForInvalidConfigurationAndPlatform". Compilado previamente de forma correcta.
+   2:3>Destino "GetNativeManifest" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (punto de entrada):
+   2:3>Compilación terminada del destino "GetNativeManifest" en el proyecto "Wheel.Core.csproj".
+   2:3>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (GetNativeManifest destinos).
+     3>Ejecución de la tarea "MSBuild" terminada.
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') se evaluó como ('..\src\Wheel.Core.csproj' != '' and '' != '').
+     3>Compilación terminada del destino "ResolveProjectReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "FindInvalidProjectReferences" debido a una condición falsa (False); ('$(FindInvalidProjectReferences)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+       Se omitió el destino "GetFrameworkPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "GetReferenceAssemblyPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "PrepareForBuild". Compilado previamente de forma correcta.
+     3>Destino "GetInstalledSDKLocations" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveSDKReferences" depende de él):
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') se evaluó como ('' != '' and '' == 'true' and '' != '' and '' != '').
+       Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') se evaluó como ('' != '' and '' == 'true' and '' != '' and '' != '').
+     3>Compilación terminada del destino "GetInstalledSDKLocations" en el proyecto "testWheel.Core.csproj".
+     3>Destino "ModifyUnitTestPlatformVersion" en el archivo "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportBefore\Windows.8.1.UT_SDKReference.props" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveSDKReferences" depende de él):
+     3>Compilación terminada del destino "ModifyUnitTestPlatformVersion" en el proyecto "testWheel.Core.csproj".
+     3>Destino "ResolveSDKReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+       Se omitió la tarea "ResolveSDKReference" debido a una condición falsa (False); ('@(SDKReference)'!='') se evaluó como (''!='').
+     3>Compilación terminada del destino "ResolveSDKReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ResolveSDKReferences". Compilado previamente de forma correcta.
+     3>Destino "ExpandSDKReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+       Se omitió la tarea "GetSDKReferenceFiles" debido a una condición falsa (False); ('@(ResolvedSDKReference)'!='') se evaluó como (''!='').
+     3>Compilación terminada del destino "ExpandSDKReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ResolveNuGetPackageAssets" debido a una condición falsa (False); ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) se evaluó como ('true' == 'true' and exists('project.lock.json')).
+     3>Destino "ResolveAssemblyReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+       Usando la tarea "ResolveAssemblyReference" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ResolveAssemblyReference"
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v3.5
+         TargetFrameworkMonikerDisplayName:
+             .NETFramework v3.5
+         TargetedRuntimeVersion:
+             v2.0.50727
+         Assemblies:
+             System
+             Microsoft.VisualStudio.QualityTools.UnitTestFramework
+             System.Core
+         AssemblyFiles:
+             C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll
+             C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\,C:\Windows\Microsoft.NET\Framework\v3.5\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\,C:\Windows\Microsoft.NET\Framework\v3.0\,C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             bin\Release\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+         AppConfigFile:
+             
+         AutoUnify:
+             True
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             msil
+         StateFile:
+             obj\Release\testWheel.Core.csprojResolveAssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\
+             C:\Windows\Microsoft.NET\Framework\v3.5\
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\
+             C:\Windows\Microsoft.NET\Framework\v3.0\
+             C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         Referencia principal "Wheel.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=386776cf23ddfbf3".
+             La ruta de acceso del archivo resuelta es "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll".
+             Se encontró el archivo "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.pdb" relacionado.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll".
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.winmd", pero no existía.
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}".
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UnitTestFramework.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UnitTestFramework.exe", pero no existía.
+                 Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}".
+                 Ubicaciones de AssemblyFoldersEx consideradas.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Referencia principal "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Core.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Core.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Core.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.winmd", pero no existía.
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Dependencia "System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0".
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Data.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Data.exe", pero no existía.
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Data.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Data.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Data.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Data.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Data.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Data.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Data.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Data.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Data.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.winmd", pero no existía.
+             Requerido por "Microsoft.VisualStudio.QualityTools.UnitTestFramework".
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Dependencia "System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0".
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.exe", pero no existía.
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.winmd", pero no existía.
+             Requerido por "Microsoft.VisualStudio.QualityTools.UnitTestFramework".
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Dependencia "System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0".
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Configuration.exe", pero no existía.
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Configuration.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Configuration.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Configuration.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Configuration.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Configuration.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Configuration.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Configuration.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.winmd", pero no existía.
+             Requerido por "Microsoft.VisualStudio.QualityTools.UnitTestFramework".
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Dependencia "System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             La ruta de acceso del archivo resuelta es "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.Services.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+                 Para SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0".
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\System.Web.Services.exe", pero no existía.
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\System.Web.Services.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Web.Services.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\System.Web.Services.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Web.Services.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.Services.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.Services.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\System.Web.Services.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.Services.winmd", pero no existía.
+             Requerido por "Microsoft.VisualStudio.QualityTools.UnitTestFramework".
+             Esta referencia no es "CopyLocal" porque es un archivo necesario.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Dependencia "Microsoft.VisualStudio.QualityTools.UTFResources, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             La ruta de acceso del archivo resuelta es "C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UTFResources\10.1.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UTFResources.dll".
+             Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{GAC}".
+                 Para SearchPath "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0".
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Para SearchPath "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages".
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Common Files\microsoft shared\VSTT\14.0\UITestExtensionPackages\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Para SearchPath "{TargetFrameworkDirectory}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v3.0\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+                 Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}".
+                 Ubicaciones de AssemblyFoldersEx consideradas.
+                 Para SearchPath "{AssemblyFolders}".
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.winmd", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.dll", pero no existía.
+                 Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.VisualStudio.QualityTools.UTFResources.exe", pero no existía.
+             Requerido por "Microsoft.VisualStudio.QualityTools.UnitTestFramework".
+             Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+             El valor de ImageRuntimeVersion para esta referencia es "v2.0.50727".
+         Ubicación de AssemblyFoldersEx: "{Registry:Software\Microsoft\.NETFramework,v3.5,AssemblyFoldersEx}"
+                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v2.0\
+                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+                 C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+                 C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+                 C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+       Ejecución de la tarea "ResolveAssemblyReference" terminada.
+     3>Compilación terminada del destino "ResolveAssemblyReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "GenerateBindingRedirects" debido a una condición falsa (False); ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') se evaluó como ('' == 'true' and '' == 'true').
+       Se omitió el destino "GenerateBindingRedirectsUpdateAppConfig" debido a una condición falsa (False); ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) se evaluó como ('' == 'true' and '' == 'true' and Exists('obj\Release\testWheel.Core.csproj.testWheel.Core.dll.config')).
+       Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+     3>Destino "AfterResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResolveReferences" depende de él):
+     3>Compilación terminada del destino "AfterResolveReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ImplicitlyExpandDesignTimeFacades" debido a una condición falsa (False); ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "ResolveTestReferences" debido a una condición falsa (False); ('@(Shadow)'!='') se evaluó como (''!='').
+     3>Destino "ResolveReferences" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "ResolveReferences" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ResolveNuGetPackageAssets" debido a una condición falsa (False); ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) se evaluó como ('true' == 'true' and exists('project.lock.json')).
+       Se omitió el destino "MarkupCompilePass1" debido a una condición falsa (False); ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) se evaluó como ('' != '' or '' != '' ).
+     3>Destino "AfterMarkupCompilePass1" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     3>Compilación terminada del destino "AfterMarkupCompilePass1" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "MarkupCompilePass2ForMainAssembly" debido a una condición falsa (False); ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) se evaluó como ('false' == 'true' ).
+     3>Destino "FileClassification" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResources" depende de él):
+       Se omitió la tarea "FileClassifier" debido a una condición falsa (False); ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') se evaluó como ('' != '' or '' != '' or '' != '').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+     3>Compilación terminada del destino "FileClassification" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "MainResourcesGeneration" debido a una condición falsa (False); ('@(MainEmbeddedFiles)' != '') se evaluó como ('' != '').
+       Se omitió el destino "AssignWinFXEmbeddedResource" debido a una condición falsa (False); ('@(WinFXEmbeddedResource)' != '') se evaluó como ('' != '').
+     3>Destino "AssignTargetPaths" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+       Usando la tarea "AssignTargetPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+       Se omitió la tarea "AssignTargetPath" debido a una condición falsa (False); ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') se evaluó como (''=='' and ''=='.manifest').
+     3>Compilación terminada del destino "AssignTargetPaths" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+     3>Destino "SplitResourcesByCulture" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithNoCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithCulture)'!='') se evaluó como (''!='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithNoCulture)'!='') se evaluó como (''!='').
+       Usando la tarea "AssignCulture" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "AssignCulture"
+       Ejecución de la tarea "AssignCulture" terminada.
+     3>Compilación terminada del destino "SplitResourcesByCulture" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "CreateManifestResourceNames" debido a una condición falsa (False); ('@(EmbeddedResource)' != '') se evaluó como ('' != '').
+     3>Destino "CreateCustomManifestResourceNames" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResourceNames" depende de él):
+     3>Compilación terminada del destino "CreateCustomManifestResourceNames" en el proyecto "testWheel.Core.csproj".
+     3>Destino "PrepareResourceNames" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     3>Compilación terminada del destino "PrepareResourceNames" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ResolveAssemblyReferences". Compilado previamente de forma correcta.
+       Se omitió el destino "SplitResourcesByCulture". Compilado previamente de forma correcta.
+     3>Destino "BeforeResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResGen" depende de él):
+     3>Compilación terminada del destino "BeforeResGen" en el proyecto "testWheel.Core.csproj".
+     3>Destino "CoreResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResGen" depende de él):
+       Se omitió la tarea "GenerateResource" debido a una condición falsa (False); ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') se evaluó como ('' == 'Resx' and '' != 'false' and 'CLR2' != 'CLR2').
+       Se omitió la tarea "GenerateResource" debido a una condición falsa (False); ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') se evaluó como ('' == 'Resx' and '' != 'false' and 'CLR2' == 'CLR2').
+     3>Compilación terminada del destino "CoreResGen" en el proyecto "testWheel.Core.csproj".
+     3>Destino "AfterResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "ResGen" depende de él):
+     3>Compilación terminada del destino "AfterResGen" en el proyecto "testWheel.Core.csproj".
+     3>Destino "ResGen" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareResources" depende de él):
+     3>Compilación terminada del destino "ResGen" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "CompileLicxFiles" debido a una condición falsa (False); ('@(_LicxFile)'!='') se evaluó como (''!='').
+     3>Destino "PrepareResources" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "PrepareResources" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ResolveKeySource" debido a una condición falsa (False); ($(SignManifests) == 'true' or $(SignAssembly) == 'true') se evaluó como ( == 'true' or  == 'true').
+       Se omitió el destino "ResolveReferences". Compilado previamente de forma correcta.
+       Se omitió el destino "ResolveKeySource" debido a una condición falsa (False); ($(SignManifests) == 'true' or $(SignAssembly) == 'true') se evaluó como ( == 'true' or  == 'true').
+       Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+       Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+       Se omitió el destino "_SetExternalWin32ManifestProperties" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') se evaluó como (''=='true' or ''!='' or ''!='').
+     3>Destino "_SetEmbeddedWin32ManifestProperties" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "SetWin32ManifestProperties" depende de él):
+       Usando la tarea "GetFrameworkPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "GetFrameworkPath"
+       Ejecución de la tarea "GetFrameworkPath" terminada.
+     3>Compilación terminada del destino "_SetEmbeddedWin32ManifestProperties" en el proyecto "testWheel.Core.csproj".
+     3>Destino "SetWin32ManifestProperties" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+     3>Compilación terminada del destino "SetWin32ManifestProperties" en el proyecto "testWheel.Core.csproj".
+     3>Destino "_GenerateCompileInputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+     3>Compilación terminada del destino "_GenerateCompileInputs" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "GenerateTargetFrameworkMonikerAttribute" debido a una condición falsa (False); ('$(GenerateTargetFrameworkAttribute)' == 'true') se evaluó como ('' == 'true').
+     3>Destino "_SetTargetFrameworkMonikerAttribute" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "GenerateTargetFrameworkMonikerAttribute" depende de él):
+     3>Compilación terminada del destino "_SetTargetFrameworkMonikerAttribute" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "GenerateAdditionalSources" debido a una condición falsa (False); ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') se evaluó como ('' != '' and '' == 'true').
+     3>Destino "BeforeCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+     3>Compilación terminada del destino "BeforeCompile" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "_TimeStampBeforeCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+       Se omitió el destino "_ComputeNonExistentFileProperty" debido a una condición falsa (False); (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) se evaluó como (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+     3>Destino "ResolveCodeAnalysisRuleSet" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreCompile" depende de él):
+       Usando la tarea "ResolveCodeAnalysisRuleSet" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ResolveCodeAnalysisRuleSet"
+       Ejecución de la tarea "ResolveCodeAnalysisRuleSet" terminada.
+     3>Compilación terminada del destino "ResolveCodeAnalysisRuleSet" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "SonarQubeImportBeforeInfo" debido a una condición falsa (False); ( $(SonarQubeTempPath) != '' AND $(BuildingInsideVisualStudio) != 'true' ) se evaluó como (  != '' AND  != 'true' ).
+     3>Destino "CoreCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.Core.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+       Compilando completamente el destino "CoreCompile".
+       El archivo de salida "obj\Release\testWheel.Core.dll" no existe.
+       Usando la tarea "Csc" del ensamblado "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Build.Tasks.CodeAnalysis.dll".
+       Tarea "Csc"
+         C:\Program Files (x86)\MSBuild\14.0\bin\csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE /highentropyva- /reference:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\testWheel.Core.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /target:library /utf8output EnumeracionUnitTests\EnumeracionUT.cs EnumeracionUnitTests\Enumeracion_ReferenceEqualsUT.cs EnumeracionUnitTests\Enumeracion_EqualsUT.cs EnumeracionUnitTests\Entities\Estado.cs Properties\AssemblyInfo.cs
+         Compilador de Microsoft (R) Visual C# versión 1.1.0.51204
+         Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+       Ejecución de la tarea "Csc" terminada.
+       Se omitió la tarea "CallTarget" debido a una condición falsa (False); ('$(TargetsTriggeredByCompilation)' != '') se evaluó como ('' != '').
+     3>Compilación terminada del destino "CoreCompile" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "_TimeStampAfterCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+     3>Destino "AfterCompile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+     3>Compilación terminada del destino "AfterCompile" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "CreateTfsBuildInfoResource" debido a una condición falsa (False); ( $(AddBuildInfoToAssembly)==true ) se evaluó como ( false==true ).
+       Se omitió el destino "CreateTfsBuildInfoFile" debido a una condición falsa (False); ( $(GenerateBuildInfoConfigFile)==true AND $(WebProjectOutputDir)!='') se evaluó como ( false==true AND !='').
+     3>Destino "SetBuildInfoDefaults" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "DeleteBuildInfoFile" depende de él):
+     3>Compilación terminada del destino "SetBuildInfoDefaults" en el proyecto "testWheel.Core.csproj".
+     3>Destino "DeleteBuildInfoFile" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Delete" debido a una condición falsa (False); (EXISTS('$(BuildInfoConfigFileName)')) se evaluó como (EXISTS(' C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\bin\Release\testWheel.Core.BuildInfo.config')).
+     3>Compilación terminada del destino "DeleteBuildInfoFile" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "SetBuildInfoDefaults". Compilado previamente de forma correcta.
+     3>Destino "DeleteBuildInfoResource" en el archivo "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+       Se omitió la tarea "Delete" debido a una condición falsa (False); (EXISTS('$(BuildInfoResourceFileName)')) se evaluó como (EXISTS(' obj\Release\testWheel.Core.BuildInfo.config')).
+     3>Compilación terminada del destino "DeleteBuildInfoResource" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "PrepareResourcesForSatelliteAssemblies" debido a una condición falsa (False); ('$(UICulture)' != '') se evaluó como ('' != '').
+       Se omitió el destino "MergeLocalizationDirectives" debido a una condición falsa (False); ('@(GeneratedLocalizationFiles)' !='') se evaluó como ('' !='').
+     3>Destino "AfterCompileWinFX" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "_AfterCompileWinFXInternal" depende de él):
+     3>Compilación terminada del destino "AfterCompileWinFX" en el proyecto "testWheel.Core.csproj".
+     3>Destino "_AfterCompileWinFXInternal" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Compile" depende de él):
+     3>Compilación terminada del destino "_AfterCompileWinFXInternal" en el proyecto "testWheel.Core.csproj".
+     3>Destino "Compile" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "Compile" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ExportWindowsMDFile" debido a una condición falsa (False); ('$(ExportWinMDFile)' == 'true') se evaluó como ('' == 'true').
+       Se omitió el destino "UnmanagedUnregistration" debido a una condición falsa (False); ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)')) se evaluó como ((('' != '' or '' != 'true' or 'Library' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\testWheel.Core.csproj.UnmanagedRegistration.cache')).
+       Se omitió el destino "GenerateSerializationAssemblies" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     3>Destino "_GenerateSatelliteAssemblyInputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+       Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+     3>Compilación terminada del destino "_GenerateSatelliteAssemblyInputs" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ComputeIntermediateSatelliteAssemblies" debido a una condición falsa (False); (@(EmbeddedResource->'%(WithCulture)') != '') se evaluó como ( != '').
+       Se omitió el destino "GenerateSatelliteAssemblies" debido a una condición falsa (False); ('@(_SatelliteAssemblyResourceInputs)' != '') se evaluó como ('' != '').
+     3>Destino "CreateSatelliteAssemblies" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "CreateSatelliteAssemblies" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "GenerateManifests" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') se evaluó como (''=='true' or ''!='' or ''!='' or '' == 'true').
+     3>Destino "GetTargetPath" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "GetTargetPath" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "ComputeIntermediateSatelliteAssemblies" debido a una condición falsa (False); (@(EmbeddedResource->'%(WithCulture)') != '') se evaluó como ( != '').
+     3>Destino "_CopyFilesMarkedCopyLocal" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+       Usando la tarea "Copy" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Copy"
+         Copiando el archivo de "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" en "bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll".
+         Copiando el archivo de "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.dll" en "bin\Release\Wheel.Core.dll".
+         Copiando el archivo de "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\bin\Release\Wheel.Core.pdb" en "bin\Release\Wheel.Core.pdb".
+       Ejecución de la tarea "Copy" terminada.
+     3>Compilación terminada del destino "_CopyFilesMarkedCopyLocal" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+       Se omitió el destino "_SplitProjectReferencesByFileExistence". Compilado previamente de forma correcta.
+     3>Destino "GetCopyToOutputDirectoryItems" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "_CopySourceItemsToOutputDirectory" depende de él):
+       Tarea "MSBuild"
+         Propiedades globales:
+           Configuration=Release
+           Platform=AnyCPU
+     3>El proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (3) está compilando "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (2:4) en el nodo 1 (GetCopyToOutputDirectoryItems destinos).
+   2:4>Compilando con la versión de herramientas "14.0".
+       Se omitió el destino "_CheckForInvalidConfigurationAndPlatform". Compilado previamente de forma correcta.
+       Se omitió el destino "GetCopyToOutputDirectoryItems". Compilado previamente de forma correcta.
+   2:4>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (GetCopyToOutputDirectoryItems destinos).
+     3>Ejecución de la tarea "MSBuild" terminada.
+       Tarea "AssignTargetPath"
+       Ejecución de la tarea "AssignTargetPath" terminada.
+     3>Compilación terminada del destino "GetCopyToOutputDirectoryItems" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectory" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) se evaluó como ( '' != '' ).
+       Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) se evaluó como ( '' != '' ).
+     3>Destino "_CopySourceItemsToOutputDirectory" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+     3>Compilación terminada del destino "_CopySourceItemsToOutputDirectory" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "_CopyAppConfigFile" debido a una condición falsa (False); ( '@(AppConfigWithTargetPath)' != '' ) se evaluó como ( '' != '' ).
+       Se omitió el destino "_CopyManifestFiles" debido a una condición falsa (False); ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) se evaluó como ( ''=='true' or ''=='true' ).
+     3>Destino "_CheckForCompileOutputs" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+     3>Compilación terminada del destino "_CheckForCompileOutputs" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     3>Destino "CopyFilesToOutputDirectory" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "PrepareForRun" depende de él):
+       Tarea "Copy"
+         Copiando el archivo de "obj\Release\testWheel.Core.dll" en "bin\Release\testWheel.Core.dll".
+       Ejecución de la tarea "Copy" terminada.
+       Tarea "Message"
+         testWheel.Core -> C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\bin\Release\testWheel.Core.dll
+       Ejecución de la tarea "Message" terminada.
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(AddModules)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_SGenDllCreated)'=='true') se evaluó como ('false'=='true').
+       Tarea "Copy"
+         Copiando el archivo de "obj\Release\testWheel.Core.pdb" en "bin\Release\testWheel.Core.pdb".
+       Ejecución de la tarea "Copy" terminada.
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_DocumentationFileProduced)'=='true') se evaluó como ('false'=='true').
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') se evaluó como ('' != '').
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) se evaluó como ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') se evaluó como ('' != 'true' and '' != '').
+       Se omitió la tarea "Message" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') se evaluó como ('' != 'true' and '' != '').
+     3>Compilación terminada del destino "CopyFilesToOutputDirectory" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "RunCodeAnalysis" debido a una condición falsa (False); ('$(RunCodeAnalysisOnThisProject)'=='true') se evaluó como (''=='true').
+     3>Destino "PrepareForRun" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+     3>Compilación terminada del destino "PrepareForRun" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "UnmanagedRegistration" debido a una condición falsa (False); ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') se evaluó como (''=='true' and 'Library'=='library').
+       Se omitió el destino "_CheckForCompileOutputs". Compilado previamente de forma correcta.
+       Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+     3>Destino "_CleanGetCurrentAndPriorFileWrites" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "IncrementalClean" depende de él):
+       Usando la tarea "ReadLinesFromFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ReadLinesFromFile"
+       Ejecución de la tarea "ReadLinesFromFile" terminada.
+       Usando la tarea "ConvertToAbsolutePath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "ConvertToAbsolutePath"
+       Ejecución de la tarea "ConvertToAbsolutePath" terminada.
+       Usando la tarea "FindUnderPath" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "FindUnderPath"
+         La ruta de comparación es "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "bin\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "obj\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Usando la tarea "RemoveDuplicates" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "RemoveDuplicates"
+       Ejecución de la tarea "RemoveDuplicates" terminada.
+     3>Compilación terminada del destino "_CleanGetCurrentAndPriorFileWrites" en el proyecto "testWheel.Core.csproj".
+     3>Destino "IncrementalClean" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "CoreBuild" depende de él):
+       Tarea "FindUnderPath"
+         La ruta de comparación es "bin\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Tarea "FindUnderPath"
+         La ruta de comparación es "obj\Release\".
+       Ejecución de la tarea "FindUnderPath" terminada.
+       Usando la tarea "Delete" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "Delete"
+       Ejecución de la tarea "Delete" terminada.
+       Tarea "RemoveDuplicates"
+       Ejecución de la tarea "RemoveDuplicates" terminada.
+       Usando la tarea "WriteLinesToFile" del ensamblado "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Tarea "WriteLinesToFile"
+       Ejecución de la tarea "WriteLinesToFile" terminada.
+     3>Compilación terminada del destino "IncrementalClean" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "PostBuildEvent" debido a una condición falsa (False); ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) se evaluó como ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+     3>Destino "CoreBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Build" depende de él):
+     3>Compilación terminada del destino "CoreBuild" en el proyecto "testWheel.Core.csproj".
+       Se omitió el destino "CreateTfsBuildInfoResource" debido a una condición falsa (False); ( $(AddBuildInfoToAssembly)==true ) se evaluó como ( false==true ).
+     3>Destino "AfterBuild" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (el destino "Build" depende de él):
+     3>Compilación terminada del destino "AfterBuild" en el proyecto "testWheel.Core.csproj".
+     3>Destino "Build" en el archivo "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" del proyecto "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (punto de entrada):
+     3>Compilación terminada del destino "Build" en el proyecto "testWheel.Core.csproj".
+     3>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\test\testWheel.Core.csproj" (destinos predeterminados).
+     1>Ejecución de la tarea "MSBuild" terminada.
+     1>Compilación terminada del destino "Build" en el proyecto "Wheel.Core.sln".
+     1>Compilación del proyecto terminada "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (destinos predeterminados).
+
+Compilación correcta.
+
+       "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\Wheel.Core.sln" (destino predeterminado) (1) ->
+       "C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj" (destino predeterminado) (2) ->
+       (CoreCompile destino) -> 
+         Enumeracion.cs(215,50): warning CS1584: El comentario XML tiene un atributo cref '>System.String' con sintaxis incorrecta [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(215,50): warning CS1658: Se esperaba un identificador. Vea también el error CS1001. [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(238,45): warning CS1584: El comentario XML tiene un atributo cref '>System.String' con sintaxis incorrecta [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(238,45): warning CS1658: Se esperaba un identificador. Vea también el error CS1001. [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(159,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(200,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(237,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(274,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(290,37): warning CS1723: El comentario XML tiene un atributo cref 'TipoDerivado' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(313,81): warning CS1723: El comentario XML tiene un atributo cref 'TipoCodigo' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(315,45): warning CS1723: El comentario XML tiene un atributo cref 'TipoDerivado' que hace referencia a un parámetro de tipo [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         CustomAttributes\Development\NoImplementado.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         CustomAttributes\Development\Dummy.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         CustomAttributes\Object\Inmutable.cs(3,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Enumeracion.cs(6,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+         Exceptions\ArgumentoInvalido.cs(2,1): warning CS1587: El comentario XML no está situado en un elemento válido del idioma [C:\TfsData\Agents\Agent-CangriHack-W10\_work\75\s\src\Wheel.Core.csproj]
+
+    16 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.16
